@@ -1,0 +1,289 @@
+body {
+    font  : 21px sans-serif;
+  
+    padding : 2em;
+    margin  : 120px;
+    background: linear-gradient(rgba(0,0,0,0.5),#eed600),url(../images/campus.jpeg) center/cover no-repeat;
+}
+    
+
+  h2{
+      text-align: center;
+      font-size:50px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .form .form1,.form .form2{
+    position: relative;
+    margin : 0 auto;
+    background : #eed600;
+
+  }
+  form {
+  
+    padding: 2em;
+    height: 1100px;
+    border-radius: 20px;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    backdrop-filter: blur(10px);
+    box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+    text-align: center;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+  }
+    span {
+      font-weight: 500;
+      color: #fff;
+      opacity: 0.7;
+      font-size: 1.4rem;
+      margin-top: 0;
+      margin-bottom: 60px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    }
+    .Contact span{
+        font-size: 10px;
+        margin-left: 90%;
+        color: black;
+    }
+    
+    a {
+      text-decoration: none;
+      color: #ddd;
+      font-size: 12px;
+      
+    }
+    
+    select option{
+        color: black;
+    }
+    input,select,textarea{
+      background: transparent;
+      width: 200px;
+      padding: 1em;
+      margin-bottom: 2em;
+      border: none;
+      border-left: 1px solid white;
+      border-top: 1px solid white;
+      border-radius: 5000px;
+      backdrop-filter: blur(5px);
+      box-shadow: 4px 4px 60px rgba(0,0,0,0.2);
+      color: #fff;
+      font-family: Montserrat, sans-serif;
+      font-weight: 500;
+      transition: all 0.2s ease-in-out;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    }
+      input:hover {
+        background: rgba(255,255,255,0.1);
+        box-shadow: 4px 4px 60px 8px rgba(0,0,0,0.2);
+      }
+      
+      input[type="email"],
+      input[type="password"] ,input[type="radio"]:focus{
+    
+          background: rgba(255,255,255,0.1);
+          box-shadow: 4px 4px 60px 8px rgba(0,0,0,0.2);
+        
+      }
+      
+      input[type="button"] {
+        margin-top: 10px;
+        width: 150px;
+        font-size: 1rem;
+      }
+      input[type="button"]:hover {
+          cursor: pointer;
+        }
+        
+        input[type="button"]:active {
+          background: rgba(255,255,255,0.2);
+        }
+      
+
+    
+   
+  
+  
+  ::placeholder {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  }
+  
+
+  .form{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 120px;
+    margin-top: 0;
+  }
+  .alert {
+margin: 50px;
+  }
+  .alert span{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-style: italic;
+  }
+
+
+  .Contact{
+    padding:70px 0 20px;
+    background:#eed600;
+    position: relative;}
+
+
+
+
+body .fa-solid{
+    color: #eed600;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+  
+.pied-page{
+    width: 80%;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.pied-g, .pied-d{
+     flex-basis:45%;
+     padding:10px;
+     margin-bottom:20px;
+}
+.pied-d{
+    text-align: right;
+}
+.pied-page h1{
+    margin:10px 0;
+
+}
+.titre-text{
+margin-top: 150px;
+padding-bottom:70px;
+text-align: center;
+}
+.pied-g .far{
+     margin-right: 10px;
+     font-size: 20px;
+     color: white;
+   
+}
+.pied-d .far,.fas{
+    margin-left: 10px;
+    font-size: 20px;
+    color:white;
+    
+}
+
+.btn-menu .fas{
+    margin-left: 0px;
+    font-size: 20px;
+    color:black;
+}
+
+.img-footer{
+    max-width:170px;
+    opacity:0.2;
+    position: absolute;
+    left:50%;
+    top:30%;
+    transform:translate(-50%,-50%);
+    transition: 0.3s ease-in;
+}
+.img-footer:hover{
+    transform: translate(-50%);
+}
+.social-media{
+    text-align: center;
+}
+.social-media .fab{
+    height:40px;
+    width:40px;
+    font-size:20px;
+    line-height:40px;
+    border:1px solid white;
+    cursor: pointer;
+    transition:0.6s ease-in;
+    color:white;
+}
+
+.social-media .fab:hover{
+    background:white;
+    color: #eed600;
+    transform: translateY(-10px);
+}
+@media screen and (max-width:770px){
+    input,select,textarea{
+        background: transparent;
+        width: 350px;
+        padding: 1.5em;
+      }
+    body {
+        font  : 15px sans-serif;
+      
+        padding : 0em;
+        margin  : 0px;
+        background: linear-gradient(rgba(0,0,0,0.5),#eed600),url(../images/campus.jpeg) center/cover no-repeat;
+    }
+    h2{
+        
+        font-size:30px;
+    }
+    .alert span{
+        font-size: 15px;
+    }
+    .Contact span{
+        color: black;
+        font-size: 10px;
+        margin-top: 25px;
+        margin-left: 80%;
+    }
+
+    body .fa-solid{
+        color: #eed600;
+        font-size: 40px;
+        margin-bottom: 30px;
+        padding: 0;
+    }
+
+
+    .social-media .fab:hover{
+        transform: translateY(-4px);
+    }
+    .social-media .fab{
+        height:65px;
+        width:60px;
+        padding-left:100px 0;
+        padding-top: 10px;
+        font-size:35px;
+     
+        
+    }
+    .img-footer:hover{
+        transform: translate(0);
+    }
+    .img-footer{
+        max-width:90px;
+        position: absolute;
+        left:40%;
+        top:20%;
+        transform: none;
+    }
+    .pied-page{
+        width: 100%;
+    }
+       
+    .pied-page h1{
+        font-size: 20px;
+    }
+    
+    .pied-page p{
+        font-size: 12px;
+    }
+}
